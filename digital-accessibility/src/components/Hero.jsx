@@ -41,12 +41,7 @@ const Hero = () => {
           <div className="mt-10 flex items-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm 
-                         font-semibold text-white shadow-sm hover:bg-blue-500 
-                         focus-visible:outline focus-visible:outline-2 
-                         focus-visible:outline-offset-2 
-                         focus-visible:outline-blue-600
-                         transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1"
             >
               Start Your Accessibility Audit
             </a>

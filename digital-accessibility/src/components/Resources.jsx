@@ -12,31 +12,31 @@ const resources = [
     category: "Indian Legislation",
     document: "Rights of Persons with Disabilities Act 2016",
     link: "https://your-link-here.com/rpwd-act.pdf",
-    iconColor: "text-green-600",
+    iconColor: "text-blue-600",
   },
   {
     category: "Implementation Rules",
     document: "RPwD Rules 2017 – Implementation Framework",
     link: "https://your-link-here.com/rpwd-rules.pdf",
-    iconColor: "text-purple-600",
+    iconColor: "text-blue-600",
   },
   {
     category: "Global Standard",
     document: "WCAG 2.1 Guidelines – W3C Standards",
     link: "https://your-link-here.com/wcag-21.pdf",
-    iconColor: "text-orange-600",
+    iconColor: "text-blue-600",
   },
   {
     category: "National Guideline",
     document: "GIGW 3.0 Accessibility Standards – MeitY",
     link: "https://your-link-here.com/gigw-3.pdf",
-    iconColor: "text-teal-600",
+    iconColor: "text-blue-600",
   },
   {
     category: "Bureau of Indian Standards",
     document: "IS 17802 (Parts 1 & 2) – Accessibility for ICT Products",
     link: "https://your-link-here.com/is17802.pdf",
-    iconColor: "text-red-600",
+    iconColor: "text-blue-600",
   },
 ];
 
@@ -63,9 +63,9 @@ export default function ProfessionalResources() {
           {resources.map((item, index) => (
             <div
               key={index}
-              className="group relative bg-white border border-gray-200 rounded-2xl p-6 
-                         shadow-sm hover:shadow-xl transition-all duration-300 
-                         hover:-translate-y-1 hover:border-gray-300"
+              className="group relative rounded-2xl border border-gray-200 bg-white p-6 
+                         shadow-sm hover:shadow-blue-500/50 hover:shadow-2xl
+                         transition-all duration-300 hover:-translate-y-1"
             >
               <div className="absolute top-6 right-6 p-2 rounded-lg bg-gray-50 
                               group-hover:bg-blue-50 transition-colors duration-300">

@@ -29,26 +29,16 @@ export default function AccessibleCompliant() {
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
           <a
             href="#"
-            className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white 
-                       px-8 py-4 rounded-xl text-base font-semibold shadow-lg 
-                       hover:bg-blue-500 hover:-translate-y-1 hover:shadow-xl
-                       transition-all duration-300 focus-visible:outline 
-                       focus-visible:outline-2 focus-visible:outline-offset-2 
-                       focus-visible:outline-blue-600"
+            className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1"
           >
-            Book Your Accessibility Audit
-            <ArrowRight className="h-5 w-5" />
+            Start Your Accessibility Audit
           </a>
 
           <a
             href="#"
-            className="inline-flex items-center justify-center gap-2 bg-white border-2 
-                       border-gray-300 text-gray-900 px-8 py-4 rounded-xl text-base 
-                       font-semibold shadow-sm hover:bg-gray-50 hover:border-gray-400
-                       hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="bg-white text-gray-900 border border-gray-200 px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-sm hover:shadow-md hover:border-gray-300 hover:-translate-y-1"
           >
-            Talk to a Compliance Specialist
-            <Users className="h-5 w-5" />
+            Schedule Your Consultation
           </a>
         </div>
       </div>

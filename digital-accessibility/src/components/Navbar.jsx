@@ -12,14 +12,13 @@ const Navbar = () => {
       <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
         {/* Left Side: Logo & Menu */}
         {/* Left Side: Logo */}
-        <div className="flex items-center">
-          <a href="/">
-            <img 
-              src={logo} 
-              alt="Taghash Logo" 
-              className="h-10 w-auto object-contain" 
-            />
-          </a>
+        <div className="flex-shrink-0 flex items-center cursor-pointer">
+          <img 
+            src={logo} 
+            alt="Taghash Logo" 
+            className="h-16 w-auto object-contain" 
+            style={{ imageRendering: '-webkit-optimize-contrast' }}
+          />
         </div>
 
         {/* Center: Desktop Menu */}

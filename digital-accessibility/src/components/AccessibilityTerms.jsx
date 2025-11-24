@@ -95,12 +95,7 @@ export default function AccessibilityTerms() {
           <div className="text-center">
             <a
               href="#"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl 
-                         bg-blue-600 text-white font-semibold text-base shadow-lg 
-                         hover:bg-blue-500 hover:-translate-y-1 hover:shadow-xl
-                         transition-all duration-300 focus-visible:outline 
-                         focus-visible:outline-2 focus-visible:outline-offset-2 
-                         focus-visible:outline-blue-600"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1"
             >
               Schedule Your Consultation
             </a>

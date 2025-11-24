@@ -1,126 +1,88 @@
-import React from 'react';
-import logo from '../assets/logo.png';
-import { Mail, Phone, Linkedin, Twitter, Globe } from 'lucide-react';
+import React from "react";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
+import Logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto py-16 px-6 lg:py-20">
+   <footer id="contact" className="w-full bg-[#e6efff] border-t border-blue-200 text-gray-700">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
+      {/* Main Footer */}
+      <div className="max-w-7xl mx-auto px-6 py-14">
+        <div className="grid md:grid-cols-3 gap-10">
 
-          {/* Branding - Left */}
-          <div className="space-y-5 text-center md:text-left">
-            <img src={logo} alt="Taghash" className="h-12 mx-auto md:mx-0" />
-
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm mx-auto md:mx-0">
+          {/* Logo + About */}
+          <div className="text-center md:text-left">
+            <div className="flex-shrink-0 flex items-center cursor-pointer justify-center md:justify-start">
+              <img 
+                src={Logo} 
+                alt="Taghash Logo" 
+                className="h-16 w-auto object-contain" 
+                style={{ imageRendering: '-webkit-optimize-contrast' }}
+              />
+            </div>
+            <p className="text-sm leading-6 text-gray-600">
               Accreditation and compliance, made simple and secure.
             </p>
-            
-            <div className="flex items-center justify-center md:justify-start gap-4 pt-2">
-              <a 
-                href="#" 
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
+
+            {/* Social Icons */}
+            <div className="flex gap-4 mt-6 justify-center md:justify-start">
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaLinkedin size={18} />
               </a>
-              <a 
-                href="#" 
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaTwitter size={18} />
               </a>
-              <a 
-                href="#" 
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-                aria-label="Website"
-              >
-                <Globe className="h-5 w-5" />
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaGlobe size={18} />
               </a>
             </div>
           </div>
 
-          {/* Resources - Center */}
-          <div className="mx-auto text-center md:text-left">
-            <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">
-              Quick Links
-            </h3>
-
-            <ul className="space-y-3">
-              <li>
-                <a href="#hero" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#track-deadline" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Track Deadlines
-                </a>
-              </li>
-              <li>
-                <a href="#learn-compliance" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Learn Standards
-                </a>
-              </li>
-              <li>
-                <a href="#resources" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Resources
-                </a>
-              </li>
-              <li>
-                <a href="#accessibility-terms" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Accessibility Terms
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact - Right */}
-          <div className="space-y-5 text-center md:text-left">
-            <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">
-              Get In Touch
-            </h3>
-
-            <div className="space-y-4">
-              <div className="flex items-center justify-center md:justify-start gap-3 text-gray-400">
-                <Mail className="h-5 w-5 flex-shrink-0" />
-                <a 
-                  href="mailto:compliance@taghash.com" 
-                  className="text-sm hover:text-white transition-colors duration-300"
-                >
-                  compliance@taghash.com
-                </a>
-              </div>
-
-              <div className="flex items-center justify-center md:justify-start gap-3 text-gray-400">
-                <Phone className="h-5 w-5 flex-shrink-0" />
-                <a 
-                  href="tel:+918001234567" 
-                  className="text-sm hover:text-white transition-colors duration-300"
-                >
-                  +91 800 123 4567
-                </a>
-              </div>
+          {/* Company Links */}
+          <div className="flex justify-center md:justify-center">
+            <div className="text-center md:text-left">
+              <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="#hero" className="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="#track-deadline" className="hover:text-blue-600 transition">Track Deadlines</a></li>
+                <li><a href="#learn-compliance" className="hover:text-blue-600 transition">Learn Standards</a></li>
+                <li><a href="#resources" className="hover:text-blue-600 transition">Resources</a></li>
+                <li><a href="#accessibility-terms" className="hover:text-blue-600 transition">Accessibility Terms</a></li>
+                <li><a href="#contact" className="hover:text-blue-600 transition">Contact</a></li>
+              </ul>
             </div>
           </div>
 
+          {/* Contact */}
+          <div className="text-center md:text-left md:pl-20">
+            <h3 className="font-semibold text-gray-900 mb-4">Mail Us</h3>
+            <div className="flex items-start gap-2 text-sm justify-center md:justify-start">
+              <EnvelopeIcon className="h-5 text-gray-500" />
+              <p className="text-gray-600">compliance@taghash.com</p>
+            </div>
+            <div className="flex items-start gap-2 text-sm justify-center md:justify-start mt-2">
+              <PhoneIcon className="h-5 text-gray-500" />
+              <p className="text-gray-600">+91 800 123 4567</p>
+            </div>
+          </div>
+
+          {/* Newsletter Input */}
+          
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <p className="text-sm text-gray-400 text-center">
-            © 2025 Taghash Pvt Ltd. All rights reserved.
-          </p>
-        </div>
+        <div className="mt-12 border-t pt-6 flex flex-col md:flex-row justify-between items-center text-gray-600">
+          <p className="text-xs md:text-sm text-center md:text-left">© 2025 taghash Pvt Ltd. All rights reserved.</p>
 
+          <div className="flex gap-6 mt-4 md:mt-0 justify-center text-sm">
+            <a href="#" className="hover:text-blue-600 transition">Privacy</a>
+            <a href="#" className="hover:text-blue-600 transition">Terms</a>
+            <a href="#" className="hover:text-blue-600 transition">Security</a>
+          </div>
+        </div>
       </div>
+
     </footer>
   );
 };
