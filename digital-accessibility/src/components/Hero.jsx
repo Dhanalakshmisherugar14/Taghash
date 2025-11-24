@@ -51,13 +51,7 @@ const Hero = () => {
               Start Your Accessibility Audit
             </a>
 
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900 
-                         transition-all duration-300 hover:text-blue-600 hover:translate-x-1"
-            >
-              See how it works <span aria-hidden="true">→</span>
-            </a>
+           
           </div>
         </div>
 
