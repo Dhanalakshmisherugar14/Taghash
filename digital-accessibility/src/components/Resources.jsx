@@ -56,10 +56,7 @@ export default function ProfessionalResources() {
           >
             Access All Official Resources & Compliance Downloads
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Direct access to official circulars, acts, standards, and national guidelines
-            essential for digital accessibility compliance.
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
