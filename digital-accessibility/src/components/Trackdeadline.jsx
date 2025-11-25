@@ -54,42 +54,32 @@ export default function TrackDeadline() {
           </p>
         </div>
 
-        <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl">
+        <div className="overflow-hidden rounded-3xl shadow-xl shadow-slate-200 bg-white">
           <div className="overflow-x-auto">
             <table className="min-w-full text-left text-sm whitespace-nowrap">
-              <thead className="bg-gray-100/50">
+              <thead className="text-slate-700 bg-slate-100 text-sm">
                 <tr>
-                  <th scope="col" className="px-6 py-4">
-                    <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed font-bold">
-                      Requirement
-                    </p>
+                  <th scope="col" className="py-4 px-6 text-base md:text-lg font-bold">
+                    Requirement
                   </th>
-                  <th scope="col" className="px-6 py-4">
-                    <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed font-bold">
-                      Deadline
-                    </p>
+                  <th scope="col" className="py-4 px-6 text-base md:text-lg font-bold">
+                    Deadline
                   </th>
-                  <th scope="col" className="px-6 py-4">
-                    <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed font-bold">
-                      Priority
-                    </p>
+                  <th scope="col" className="py-4 px-6 text-base md:text-lg font-bold">
+                    Priority
                   </th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200 bg-white">
+              <tbody className="bg-white">
                 {deadlines.map((item) => (
-                  <tr key={item.id} className="hover:bg-gray-50/50 transition-colors">
-                    <td className="px-6 py-4">
-                      <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed font-normal">
-                        {item.requirement}
-                      </p>
+                  <tr key={item.id} className="border-b border-gray-100">
+                    <td className="py-4 px-6  text-slate-500 text-base">
+                      {item.requirement}
                     </td>
-                    <td className="px-6 py-4">
-                      <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed font-normal">
-                        {item.deadline}
-                      </p>
+                    <td className="py-6 px-6 text-slate-500 text-base">
+                      {item.deadline}
                     </td>
-                    <td className="px-6 py-4">
+                    <td className="py-6 px-6 text-slate-500 font-medium text-base">
                       <span
                         className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset
                           ${
