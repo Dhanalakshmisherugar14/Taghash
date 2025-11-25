@@ -33,7 +33,7 @@ const CSCRFDeadline = () => {
             transition-all duration-300
           ">
             Book Your CSCRF Consultation
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+           
           </button>
 
           {/* Button 2 */}

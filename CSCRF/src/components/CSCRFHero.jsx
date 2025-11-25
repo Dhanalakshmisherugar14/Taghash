@@ -35,7 +35,7 @@ const CSCRFHero = () => {
               {/* Regulatory Reference */}
               <div className="bg-indigo-50/50 rounded-xl p-5 border border-indigo-100 mb-6">
                 <div className="flex items-start gap-3">
-                  <FileText className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
+
                   <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     Based on <span className="font-semibold text-gray-800">
                       SEBI Circular No. SEBI/HO/ITD/ITD_VAPT/P/CIR/2024/113
@@ -47,7 +47,7 @@ const CSCRFHero = () => {
               {/* Taghash Solution */}
               <div className="pt-6 border-t border-gray-200">
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed text-center">
-                  <span className="font-medium text-indigo-600">Taghash</span> centralises everything from policy automation, VAPT scheduling, audit documentation to real-time monitoring in 
+                  <span className="">Taghash</span> centralises everything from policy automation, VAPT scheduling, audit documentation to real-time monitoring in 
                   <span className="font-medium text-gray-900"> one secure workspace</span>.
                 </p>
               </div>
@@ -70,7 +70,7 @@ const CSCRFHero = () => {
               "
             >
               Request a Demo
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              
             </button>
           </div>
 

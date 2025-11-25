@@ -61,7 +61,7 @@ const CSCRFControlCentre = () => {
             transition-all duration-300
           ">
             Explore Platform Modules
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            
           </button>
         </div>
 

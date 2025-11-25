@@ -1,5 +1,4 @@
 import React from "react";
-import { CalendarDays, CheckCircle2 } from "lucide-react";
 
 const CSCRFTimeline = () => {
   const items = [
@@ -39,13 +38,13 @@ const CSCRFTimeline = () => {
         </h2>
 
         {/* Timeline Table */}
-        <div className="overflow-hidden rounded-2xl shadow-lg border border-gray-200 bg-white">
+        <div className="overflow-hidden rounded-3xl shadow-xl shadow-slate-200 bg-white">
           <table className="w-full text-left border-collapse">
-            <thead className="bg-indigo-600 text-white">
+            <thead className="text-slate-700 bg-slate-100 text-sm">
               <tr>
-                <th className="py-4 px-6 text-sm md:text-base font-medium">Milestone</th>
-                <th className="py-4 px-6 text-sm md:text-base font-medium">Requirement</th>
-                <th className="py-4 px-6 text-sm md:text-base font-medium">Deadline</th>
+                <th className="py-4 px-6 text-base md:text-lg font-bold">Milestone</th>
+                <th className="py-4 px-6 text-base md:text-lg font-bold">Requirement</th>
+                <th className="py-4 px-6 text-base md:text-lg font-bold">Deadline</th>
               </tr>
             </thead>
 
@@ -53,16 +52,15 @@ const CSCRFTimeline = () => {
               {items.map((item, index) => (
                 <tr
                   key={index}
-                  className="border-b border-gray-200 hover:bg-slate-50 transition-all"
+                  className="border-b border-gray-100"
                 >
-                  <td className="py-4 px-6 font-medium text-slate-800 flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-indigo-600" />
+                  <td className="py-4 px-6 font-medium text-slate-500 flex items-center gap-2">
+
                     {item.milestone}
                   </td>
 
-                  <td className="py-4 px-6 text-slate-600">{item.requirement}</td>
-                  <td className="py-4 px-6 text-slate-900 font-medium flex items-center gap-2">
-                    <CalendarDays className="w-4 h-4 text-indigo-600" />
+                  <td className="py-6 px-6 text-slate-500">{item.requirement}</td>
+                  <td className="py-6 px-6 text-slate-500 font-medium">
                     {item.deadline}
                   </td>
                 </tr>

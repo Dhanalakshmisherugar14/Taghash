@@ -59,7 +59,7 @@ const CSCRFCategory = () => {
 
         {/* Footer description */}
         <p className="text-base md:text-lg text-gray-600 leading-relaxed mt-12 max-w-3xl mx-auto">
-          <span className="font-medium text-indigo-600">Taghash</span> identifies your category and maps controls, templates and reporting obligations to it.
+          <span className="">Taghash</span> identifies your category and maps controls, templates and reporting obligations to it.
         </p>
       </div>
     </section>
