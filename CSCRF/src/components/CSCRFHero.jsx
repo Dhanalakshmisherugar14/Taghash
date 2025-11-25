@@ -15,7 +15,7 @@ const CSCRFHero = () => {
             </h2>
 
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-              CSCRF is now <span className="text-indigo-600 font-medium">mandatory</span> for all Category I and II AIF Managers.
+              CSCRF is now <span className="">mandatory</span> for all Category I and II AIF Managers.
             </p>
           </div>
 
