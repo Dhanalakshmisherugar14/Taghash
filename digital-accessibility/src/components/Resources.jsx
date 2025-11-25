@@ -11,31 +11,31 @@ const resources = [
   {
     category: "Indian Legislation",
     document: "Rights of Persons with Disabilities Act 2016",
-    link: "https://your-link-here.com/rpwd-act.pdf",
+    link: "https://www.indiacode.nic.in/bitstream/123456789/15939/1/the_rights_of_persons_with_disabilities_act%2C_2016.pdf",
     iconColor: "text-blue-600",
   },
   {
     category: "Implementation Rules",
     document: "RPwD Rules 2017 – Implementation Framework",
-    link: "https://your-link-here.com/rpwd-rules.pdf",
+    link: "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_25_54_00002_201649_1517807328299&filename=Rules_notified_15.06.pdf&type=rule",
     iconColor: "text-blue-600",
   },
   {
     category: "Global Standard",
     document: "WCAG 2.1 Guidelines – W3C Standards",
-    link: "https://your-link-here.com/wcag-21.pdf",
+    link: "https://www.w3.org/TR/WCAG21/",
     iconColor: "text-blue-600",
   },
   {
     category: "National Guideline",
     document: "GIGW 3.0 Accessibility Standards – MeitY",
-    link: "https://your-link-here.com/gigw-3.pdf",
+    link: "https://cdnbbsr.s3waas.gov.in/s3c92a10324374fac681719d63979d00fe/uploads/2023/04/2023041074.pdf",
     iconColor: "text-blue-600",
   },
   {
     category: "Bureau of Indian Standards",
     document: "IS 17802 (Parts 1 & 2) – Accessibility for ICT Products",
-    link: "https://your-link-here.com/is17802.pdf",
+    link: "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?id=0&keyword=Accessibility+for+the+ICT+Products+and+Services",
     iconColor: "text-blue-600",
   },
 ];
