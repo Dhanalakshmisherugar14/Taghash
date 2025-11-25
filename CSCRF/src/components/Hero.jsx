@@ -4,7 +4,7 @@ import { ShieldCheck, ArrowRight, Shield } from 'lucide-react';
 const Hero = () => {
   const heading = "Cybersecurity & Cyber Resilience Compliance for AIF Managers";
   const subHead =
-    "With Taghash's end-to-end platform, implement, track, and prove cybersecurity readiness and meet SEBI's CSCRF mandate.";
+    "Taghash helps you manage each control with tasks, ownership, evidence tracking and automated reminders — ensuring end-to-end CSCRF compliance.";
   const ctaText = "Start Your CSCRF Assessment";
 
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
         </h1>
 
         {/* Subheading */}
-        <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-10">
+        <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-10">
           {subHead}
         </p>
 

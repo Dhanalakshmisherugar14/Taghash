@@ -58,8 +58,8 @@ const AIFManager = () => {
 
           {/* Footer */}
           <div className="mt-12 pt-8 border-t border-slate-200 text-center">
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              <span className="font-medium text-indigo-600">Taghash</span> helps you manage each control with tasks, ownership, evidence tracking and automated reminders — ensuring end-to-end CSCRF compliance.
+            <p className="text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
+              <span className="font-medium text-indigo-600">Taghash</span> centralises everything from policy automation, VAPT scheduling, audit documentation to real-time monitoring in one secure workspace.
             </p>
           </div>
         </div>

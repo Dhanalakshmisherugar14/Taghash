@@ -1,16 +1,58 @@
-# React + Vite
+# Taghash CSCRF Compliance Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page designed for AIF Managers to navigate SEBI's Cyber Security and Cyber Resilience Framework (CSCRF) mandate. This project showcases Taghash's end-to-end compliance platform with a clean, professional UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern UI/UX**: Built with React and Tailwind CSS for a premium, professional look.
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Smooth Navigation**: Section-based navigation with smooth scrolling (Overview, Timeline, Requirements, etc.).
+- **Interactive Components**:
+  - **Hero Section**: High-impact introduction with clear CTA.
+  - **Timeline**: Visual breakdown of CSCRF deadlines.
+  - **Requirements Checklist**: Interactive list of 11 mandatory controls.
+  - **Control Centre**: Overview of platform modules.
+- **Consistent Design System**: Unified typography (Inter font), color palette, and button styling.
 
-## React Compiler
+## 📦 Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Clone the repository** (if applicable) or navigate to the project directory:
 
-## Expanding the ESLint configuration
+    ```bash
+    cd CSCRF
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.  **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable UI components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── CSCRFHero.jsx
+│   ├── CSCRFTimeline.jsx
+│   ├── CSCRFCategory.jsx
+│   ├── AIFManager.jsx
+│   ├── CSCRFControlCentre.jsx
+│   ├── CSCRFDeadline.jsx
+│   └── Footer.jsx
+├── pages/           # Main page views
+│   └── Home.jsx
+├── App.jsx          # Main application entry
+└── main.jsx         # React DOM rendering
+```
+
+---
