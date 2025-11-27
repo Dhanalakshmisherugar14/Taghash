@@ -12,7 +12,7 @@ export default function AccessibleCompliant() {
         
         <h2
           id="accessible-heading"
-          className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl"
+          className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
         >
           Accessible. Compliant. Investor-first.
         </h2>

@@ -40,7 +40,7 @@ export default function AccessibilityControlCentre() {
           {/* MAIN HEADING */}
           <h2
             id="control-centre-heading"
-            className="text-4xl font-bold text-gray-900 sm:text-5xl"
+            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
           >
             Taghash as Your Accessibility Control Centre
           </h2>

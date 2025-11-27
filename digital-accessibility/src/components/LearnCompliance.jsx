@@ -38,10 +38,10 @@ export default function LearnCompliance() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
-        <div className="text-center mb-16">
+        <div className="text-center  mb-16">
           <h2
             id="learn-heading"
-            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl"
+            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
           >
             Learn the Standards That Define Accessibility Compliance
           </h2>
