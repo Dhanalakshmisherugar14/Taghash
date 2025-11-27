@@ -25,7 +25,7 @@ const Navbar = () => {
           <li><a href="#timeline" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Timeline</a></li>
           <li><a href="#category" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Category</a></li>
           <li><a href="#requirements" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Requirements</a></li>
-          <li><a href="#platform" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Platform</a></li>
+     
           <li><a href="#contact" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Contact</a></li>
         </ul>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
           <a href="#timeline" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Timeline</a>
           <a href="#category" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Category</a>
           <a href="#requirements" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Requirements</a>
-          <a href="#platform" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Platform</a>
+    
           <a href="#contact" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Contact</a>
           <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-6 py-2.5 rounded-lg font-medium cursor-pointer flex items-center gap-2 transition-all duration-300 text-[0.9rem] shadow-md hover:shadow-lg hover:-translate-y-[1px] group w-full justify-center">
             Start Now <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1 group-active:translate-x-1">&rarr;</span>

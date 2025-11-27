@@ -14,7 +14,7 @@ const CSCRFDeadline = () => {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Get a personalised view of where you stand on CSCRF readiness.
             <br />
-            Receive a clear, step-by-step roadmap to reach and maintain full compliance before the regulatory cut off.
+            Receive a clear, step by step roadmap to reach and maintain full compliance before the regulatory cut off.
           </p>
         </div>
 
@@ -32,19 +32,8 @@ const CSCRFDeadline = () => {
             hover:shadow-blue-600/70 hover:-translate-y-1
             transition-all duration-300
           ">
-            Book Your CSCRF Consultation
+            Book CSCRF Consultation
            
-          </button>
-
-          {/* Button 2 */}
-          <button className="
-            inline-flex items-center justify-center
-            px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl
-            text-indigo-700 bg-white border-2 border-indigo-300 font-medium
-            hover:border-indigo-500 hover:shadow-md
-            transition-all duration-300
-          ">
-            Start Your Assessment
           </button>
 
         </div>

@@ -48,7 +48,6 @@ const Footer = () => {
                 <li><a href="#timeline" className="hover:text-blue-600 transition">Timeline</a></li>
                 <li><a href="#category" className="hover:text-blue-600 transition">Category</a></li>
                 <li><a href="#requirements" className="hover:text-blue-600 transition">Requirements</a></li>
-                <li><a href="#platform" className="hover:text-blue-600 transition">Platform</a></li>
               </ul>
             </div>
           </div>

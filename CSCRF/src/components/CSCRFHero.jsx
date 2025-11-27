@@ -11,7 +11,7 @@ const CSCRFHero = () => {
           {/* Center Heading Block (Your New Version) */}
           <div className="text-center max-w-4xl mx-auto space-y-6 mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-snug">
-              Stay Fully Compliant With SEBI's New Cybersecurity Framework
+              Why To Comply With SEBI’s New Cybersecurity Framework
             </h2>
 
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
@@ -47,8 +47,7 @@ const CSCRFHero = () => {
               {/* Taghash Solution */}
               <div className="pt-6 border-t border-gray-200">
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed text-center">
-                  <span className="">Taghash</span> centralises everything from policy automation, VAPT scheduling, audit documentation to real-time monitoring in 
-                  <span className="font-medium text-gray-900"> one secure workspace</span>.
+                  <span className="">Taghash</span> provides everything from policy implementation and VAPT scheduling to audit documentation and overall monitoring for end-to-end compliance.
                 </p>
               </div>
 

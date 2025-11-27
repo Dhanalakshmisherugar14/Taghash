@@ -2,10 +2,10 @@ import React from 'react';
 import { ShieldCheck, ArrowRight, Shield } from 'lucide-react';
 
 const Hero = () => {
-  const heading = "Cybersecurity & Cyber Resilience Compliance for AIF Managers";
+  const heading = "Secure your fund’s digital infrastructure and meet SEBI’s CSCRF mandate.";
   const subHead =
-    "Taghash helps you manage each control with tasks, ownership, evidence tracking and automated reminders — ensuring end-to-end CSCRF compliance.";
-  const ctaText = "Start Your CSCRF Assessment";
+    "Implement, track and prove cybersecurity readiness with Taghash.";
+  const ctaText = "Start CSCRF Assessment Now";
 
   return (
     <section
@@ -31,7 +31,7 @@ const Hero = () => {
         </h1>
 
         {/* Subheading */}
-        <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-10">
+        <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed mb-10">
           {subHead}
         </p>
 

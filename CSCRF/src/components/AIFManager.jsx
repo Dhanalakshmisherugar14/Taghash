@@ -58,9 +58,9 @@ const AIFManager = () => {
 
           {/* Footer */}
           <div className="mt-12 pt-8 border-t border-slate-200 text-center">
-            <p className="text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
-              <span className=" ">Taghash</span> centralises everything from policy automation, VAPT scheduling, audit documentation to real-time monitoring in one secure workspace.
-            </p>
+            <button className="group inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-medium text-lg shadow-lg shadow-blue-500/30 hover:shadow-blue-600/50 hover:-translate-y-1 transition-all duration-300">
+              Talk to an Expert Today
+            </button>
           </div>
         </div>
 
