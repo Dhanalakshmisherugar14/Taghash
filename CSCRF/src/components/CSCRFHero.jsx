@@ -39,7 +39,7 @@ const CSCRFHero = () => {
                   <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     Based on <span className="font-semibold text-gray-800">
                       SEBI Circular No. SEBI/HO/ITD/ITD_VAPT/P/CIR/2024/113
-                    </span> (20 Aug 2024) with clarifications issued in December 2024 and April 2025 on classification and implementation.
+                    </span> (20 Aug 2024) with clarifications issued in December 2024 and April 2025 on classification and implementation
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const CSCRFHero = () => {
               {/* Taghash Solution */}
               <div className="pt-6 border-t border-gray-200">
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed text-center">
-                  <span className="">Taghash</span> provides everything from policy implementation and VAPT scheduling to audit documentation and overall monitoring for end-to-end compliance.
+                  <span className="">Taghash</span> provides everything from policy implementation and VAPT scheduling to audit documentation and overall monitoring for end-to-end compliance
                 </p>
               </div>
 

@@ -26,7 +26,7 @@ const AIFManager = () => {
             What SEBI Now Expects From Every AIF Manager
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            11 mandatory cyber controls to implement, validate and document before the compliance deadline.
+            11 mandatory cyber controls to implement, validate and document before the compliance deadline
           </p>
         </div>
 

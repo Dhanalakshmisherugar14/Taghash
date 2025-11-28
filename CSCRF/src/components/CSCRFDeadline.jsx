@@ -12,9 +12,9 @@ const CSCRFDeadline = () => {
             Stay Compliant Ahead of SEBI’s CSCRF Deadline
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Get a personalised view of where you stand on CSCRF readiness.
+            Get a personalised view of where you stand on CSCRF readiness
             <br />
-            Receive a clear, step by step roadmap to reach and maintain full compliance before the regulatory cut off.
+            Receive a clear, step by step roadmap to reach and maintain full compliance before the regulatory cut off
           </p>
         </div>
 

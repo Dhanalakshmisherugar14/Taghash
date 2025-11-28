@@ -4,7 +4,7 @@ import { ShieldCheck, ArrowRight, Shield } from 'lucide-react';
 const Hero = () => {
   const heading = "Secure your fund’s digital infrastructure and meet SEBI’s CSCRF mandate";
   const subHead =
-    "Implement, track and prove cybersecurity readiness with Taghash.";
+    "Implement, track and prove cybersecurity readiness with Taghash";
   const ctaText = "Start CSCRF Assessment Now";
 
   return (

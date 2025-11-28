@@ -33,7 +33,7 @@ const CSCRFCategory = () => {
 
         {/* Sub-head */}
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-12 max-w-3xl mx-auto">
-          Every AIF manager is classified each year, as of 31 March, based on total AUM.
+          Every AIF manager is classified each year, as of 31 March, based on total AUM
         </p>
 
         {/* Category Cards */}
