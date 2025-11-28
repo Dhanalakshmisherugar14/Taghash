@@ -45,12 +45,12 @@ export default function TrackDeadline() {
         <div className="text-center mb-16">
           <h2
             id="deadline-heading"
-            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
+            className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug "
           >
             Track Every Deadline To Stay Fully Compliant
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Stay in line with all SEBI-mandated milestones for digital accessibility.
+            Stay in line with all SEBI-mandated milestones for digital accessibility
           </p>
         </div>
 

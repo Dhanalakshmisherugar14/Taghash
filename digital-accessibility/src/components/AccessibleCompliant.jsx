@@ -12,18 +12,18 @@ export default function AccessibleCompliant() {
         
         <h2
           id="accessible-heading"
-          className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
+          className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug "
         >
-          Accessible. Compliant. Investor-first.
+          Accessible. Compliant. Investor-first
         </h2>
 
         <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Taghash helps SEBI-regulated funds, intermediaries and platforms stay on top of their
-          accessibility obligations.
+          accessibility obligations
         </p>
         <p className="mt-3 text-base text-gray-600 max-w-3xl mx-auto">
           We also enable you to organise, track and evidence inclusive digital experiences
-          for all investors.
+          for all investors
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">

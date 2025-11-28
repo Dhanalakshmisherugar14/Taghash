@@ -52,7 +52,7 @@ export default function ProfessionalResources() {
         <div className="text-center mb-16">
           <h2
             id="resources-heading"
-            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-4"
+            className="text-3xl md:text-4xl font-semibold text-slate-900 leading-tight mb-4"
           >
             Access All Official Resources & Compliance Downloads
           </h2>

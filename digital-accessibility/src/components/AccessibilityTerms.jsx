@@ -25,10 +25,10 @@ const terms = [
 ];
 
 const whyActNow = [
-  "Ensure your investor platforms are usable by all, not just some.",
-  "Reduce compliance risk and meet SEBI's accessibility expectations consistently.",
-  "Turn accessibility into a strategic trust signal for your brand.",
-  "Avoid expensive last-minute remediation and reputational fallout.",
+  "Ensure your investor platforms are usable by all, not just some",
+  "Reduce compliance risk and meet SEBI's accessibility expectations consistently",
+  "Turn accessibility into a strategic trust signal for your brand",
+  "Avoid expensive last-minute remediation and reputational fallout",
 ];
 
 export default function AccessibilityTerms() {
@@ -40,12 +40,12 @@ export default function AccessibilityTerms() {
         <div className="text-center mb-16">
           <h2
             id="terms-heading"
-            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
+            className="text-3xl md:text-4xl font-semibold text-slate-900 leading-tight"
           >
             Understand Key Accessibility Terms
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            A quick reference to essential concepts used in digital accessibility compliance.
+            A quick reference to essential concepts used in digital accessibility compliance
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function AccessibilityTerms() {
         {/* Why Act Now Section */}
         <div className="mt-20">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+            <h3 className="text-3xl font-semibold text-gray-900 sm:text-4xl">
               Why Act Now
             </h3>
           </div>

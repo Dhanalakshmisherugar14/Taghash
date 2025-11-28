@@ -40,14 +40,14 @@ export default function AccessibilityControlCentre() {
           {/* MAIN HEADING */}
           <h2
             id="control-centre-heading"
-            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
+            className="text-3xl md:text-4xl font-semibold text-slate-900 leading-tight"
           >
             Taghash as Your Accessibility Control Centre
           </h2>
 
           {/* SUB-HEAD */}
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Build accessibility into the core of your investor experience as a continuous compliance workflow.
+            Build accessibility into the core of your investor experience as a continuous compliance workflow
           </p>
         </div>
         
@@ -88,7 +88,7 @@ export default function AccessibilityControlCentre() {
           </div>
 
           <p className="mt-4 text-gray-700 text-base leading-relaxed max-w-3xl">
-            Follow every year from initial gap assessment to annual filings using a single, consistent workflow.
+            Follow every year from initial gap assessment to annual filings using a single, consistent workflow
           </p>
         </div>
 

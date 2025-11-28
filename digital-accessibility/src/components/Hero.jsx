@@ -30,12 +30,12 @@ const Hero = () => {
             className="mt-6 text-4xl font-bold tracking-tight 
                        text-gray-900 sm:text-6xl"
           >
-            Create Accessible, <br /> Inclusive &amp; Compliant Investor Platforms.
+            Create Accessible, <br /> Inclusive &amp; Compliant Investor Platforms
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Align every digital interaction with SEBI’s mandatory 
-            accessibility requirements.
+            accessibility requirements
           </p>
 
           <div className="mt-10 flex items-center gap-x-6">

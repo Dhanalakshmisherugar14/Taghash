@@ -41,13 +41,13 @@ export default function LearnCompliance() {
         <div className="text-center  mb-16">
           <h2
             id="learn-heading"
-            className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight"
+            className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug mb-4"
           >
             Learn the Standards That Define Accessibility Compliance
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
             Understand the legal and technical frameworks that every SEBI-regulated
-            entity must follow.
+            entity must follow
           </p>
         </div>
 
