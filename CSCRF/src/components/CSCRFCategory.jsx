@@ -27,7 +27,7 @@ const CSCRFCategory = () => {
     <section id="category" className="w-full bg-white py-20 px-6 flex justify-center">
       <div className="max-w-5xl w-full text-center">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-snug mb-4">
+        <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug mb-4">
           Know Your CSCRF Category
         </h2>
 

@@ -8,7 +8,7 @@ const CSCRFDeadline = () => {
 
         {/* Heading */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-snug mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug mb-4">
             Stay Compliant Ahead of SEBI’s CSCRF Deadline
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">

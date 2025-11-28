@@ -33,7 +33,7 @@ const CSCRFTimeline = () => {
     <section id="timeline" className="w-full py-16 bg-slate-50 px-6 flex justify-center">
       <div className="max-w-5xl w-full">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 text-center mb-16">
           Track Every Deadline With Complete Clarity
         </h2>
 

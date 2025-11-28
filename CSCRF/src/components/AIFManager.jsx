@@ -22,7 +22,7 @@ const AIFManager = () => {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 leading-tight mb-4">
             What SEBI Now Expects From Every AIF Manager
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">

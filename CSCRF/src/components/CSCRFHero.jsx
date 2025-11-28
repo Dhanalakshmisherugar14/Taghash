@@ -10,7 +10,7 @@ const CSCRFHero = () => {
 
           {/* Center Heading Block (Your New Version) */}
           <div className="text-center max-w-4xl mx-auto space-y-6 mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-snug">
+            <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug">
               Why To Comply With SEBI’s New Cybersecurity Framework
             </h2>
 
@@ -29,7 +29,7 @@ const CSCRFHero = () => {
                 <span className="font-medium text-gray-900"> VAPT</span>, 
                 <span className="font-medium text-gray-900"> SOC monitoring</span>, 
                 <span className="font-medium text-gray-900"> governance</span> and 
-                <span className="font-medium text-gray-900"> incident response</span>.
+                <span className="font-medium text-gray-900"> incident response</span>
               </p>
 
               {/* Regulatory Reference */}
